@@ -1,0 +1,269 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C650CD35-6A5F-0030-5A5F-046F674AE7B2" name="D_PRODUTO">
+<createdBy>geova</createdBy>
+<createdTime>2025-07-11 08:57:13 UTC</createdTime>
+<ownerDesignName>DataMart DWBurguer</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<typeID>2</typeID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SK_PRODUTO" id="3344300E-F0C3-0985-F95F-DACA0B51ED42">
+<createdBy>geova</createdBy>
+<createdTime>2025-07-11 08:57:57 UTC</createdTime>
+<ownerDesignName>DataMart DWBurguer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CD_PRODUTO" id="DFFC3689-268D-EC09-4EB2-83B30D8C44DC">
+<createdBy>geova</createdBy>
+<createdTime>2025-07-11 09:01:49 UTC</createdTime>
+<ownerDesignName>DataMart DWBurguer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CD_CATEGORIA_PROD" id="F195E86E-08A4-773C-B39D-D805EE2EC111">
+<createdBy>geova</createdBy>
+<createdTime>2025-07-11 09:03:00 UTC</createdTime>
+<ownerDesignName>DataMart DWBurguer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_CATEGORIA_PROD" id="77AAB073-30E8-250F-FF77-7AA55CF3773E">
+<createdBy>geova</createdBy>
+<createdTime>2025-07-11 09:04:53 UTC</createdTime>
+<ownerDesignName>DataMart DWBurguer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ST_CATEGORIA_PROD" id="07CE5FC4-F371-610A-C2DE-0AF802B7CFEB">
+<createdBy>geova</createdBy>
+<createdTime>2025-07-11 09:05:54 UTC</createdTime>
+<ownerDesignName>DataMart DWBurguer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_ST_CATEGORIA" id="8C994522-DA6A-0392-5D48-5B8DF00ACFB3">
+<createdBy>geova</createdBy>
+<createdTime>2025-07-11 09:06:38 UTC</createdTime>
+<ownerDesignName>DataMart DWBurguer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CD_SUB_CATEGORIA_PROD" id="47B49EDF-B6DD-266E-7862-23E012B79777">
+<createdBy>geova</createdBy>
+<createdTime>2025-07-11 09:08:58 UTC</createdTime>
+<ownerDesignName>DataMart DWBurguer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_SUB_CATEGORIA_PROD" id="54B2AB82-A1CB-F8CD-2B8C-E61DA64BB329">
+<createdBy>geova</createdBy>
+<createdTime>2025-07-11 09:08:58 UTC</createdTime>
+<ownerDesignName>DataMart DWBurguer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ST_SUB_CATEGORIA_PROD" id="B788F9AC-7D4E-8181-30A3-9EC4AE17AD5C">
+<createdBy>geova</createdBy>
+<createdTime>2025-07-11 09:10:44 UTC</createdTime>
+<ownerDesignName>DataMart DWBurguer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_ST_SUB_CATEGORIA_PROD" id="3CD7BCE9-4431-7F9C-E9EA-1243F8C96260">
+<createdBy>geova</createdBy>
+<createdTime>2025-07-11 09:11:04 UTC</createdTime>
+<ownerDesignName>DataMart DWBurguer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_PRODUTO" id="54D22583-F7BA-0ED2-697C-4438717BC0FF">
+<createdBy>geova</createdBy>
+<createdTime>2025-07-11 09:11:44 UTC</createdTime>
+<ownerDesignName>DataMart DWBurguer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VL_UNITARIO" id="770792BB-E27B-E232-3D02-E8CFF395FF8A">
+<createdBy>geova</createdBy>
+<createdTime>2025-07-11 09:12:26 UTC</createdTime>
+<ownerDesignName>DataMart DWBurguer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VL_PERC_LUCRO" id="2112D176-B755-FC61-DA12-A8CF9CC07C3B">
+<createdBy>geova</createdBy>
+<createdTime>2025-07-18 21:42:11 UTC</createdTime>
+<ownerDesignName>DataMart DWBurguer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TP_EMBALAGEM" id="2E761FAA-5785-E4DA-245F-EC2880D943A1">
+<createdBy>geova</createdBy>
+<createdTime>2025-07-11 09:17:14 UTC</createdTime>
+<ownerDesignName>DataMart DWBurguer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ST_PRODUTO" id="209D4BBC-E0A5-081A-E342-D757037A422D">
+<createdBy>geova</createdBy>
+<createdTime>2025-07-11 09:17:29 UTC</createdTime>
+<ownerDesignName>DataMart DWBurguer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_ST_PRODUTO" id="2D184DE3-8AC5-E1C7-4A15-1134139DCBF2">
+<createdBy>geova</createdBy>
+<createdTime>2025-07-11 09:17:52 UTC</createdTime>
+<ownerDesignName>DataMart DWBurguer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_COMPLETA" id="B2AEC88E-6134-6F96-F964-9E79A67FB627">
+<createdBy>geova</createdBy>
+<createdTime>2025-07-11 09:19:10 UTC</createdTime>
+<ownerDesignName>DataMart DWBurguer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_INICIO" id="A4C58111-3ED8-AF0E-0502-07B5D9C52AB4">
+<createdBy>geova</createdBy>
+<createdTime>2025-07-11 09:20:31 UTC</createdTime>
+<ownerDesignName>DataMart DWBurguer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_FIM" id="F315ED8D-265C-2834-E957-CBB00857D924">
+<createdBy>geova</createdBy>
+<createdTime>2025-07-11 09:20:41 UTC</createdTime>
+<ownerDesignName>DataMart DWBurguer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_CRI_RGT" id="FDCFE022-47EA-9326-DA61-1E9D5C1D0ABC">
+<createdBy>geova</createdBy>
+<createdTime>2025-07-11 09:25:47 UTC</createdTime>
+<ownerDesignName>DataMart DWBurguer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<defaultValue>GETDATE()</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_ATU_RGT" id="62DD4C8C-82CA-3D1E-3DB2-7710A7086DCC">
+<createdBy>geova</createdBy>
+<createdTime>2025-07-11 09:25:47 UTC</createdTime>
+<ownerDesignName>DataMart DWBurguer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EC6D0D9E-A811-A12D-C62F-9CD794104190" name="D_PRODUTO_PK">
+<createdBy>geova</createdBy>
+<createdTime>2025-07-11 08:57:57 UTC</createdTime>
+<ownerDesignName>DataMart DWBurguer</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3344300E-F0C3-0985-F95F-DACA0B51ED42"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1095BD7E-92E9-97AE-7C1F-FFDE6527F153" name="D_PRODUTO__UN">
+<createdBy>geova</createdBy>
+<createdTime>2025-07-13 07:22:44 UTC</createdTime>
+<ownerDesignName>DataMart DWBurguer</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DFFC3689-268D-EC09-4EB2-83B30D8C44DC"/>
+<colUsage columnID="A4C58111-3ED8-AF0E-0502-07B5D9C52AB4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

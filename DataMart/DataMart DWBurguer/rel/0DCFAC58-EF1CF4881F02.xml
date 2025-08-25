@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="0DCFAC58-82DF-21B8-8851-EF1CF4881F02" mainViewID="7F95D58B-EFAB-CE22-BABB-08DF44E5949C">
+<createdBy>geova</createdBy>
+<createdTime>2025-07-11 06:36:24 UTC</createdTime>
+<ownerDesignName>DataMart DWBurguer</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<selectedRDBMSSite>980FCE9E-D688-BDF0-C89A-C9FB2DCAED45</selectedRDBMSSite>
+</relationalModel>

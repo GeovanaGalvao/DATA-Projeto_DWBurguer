@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="DataMart DWBurguer" id="14D0040D-71AC-7F76-0FA3-B66700F17049" version="3.5">
+<createdBy>geova</createdBy>
+<createdTime>2025-07-11 06:36:23 UTC</createdTime>
+<ownerDesignName>DataMart DWBurguer</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>14D0040D-71AC-7F76-0FA3-B66700F17049</designId>
+</OSDM_Design>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="426494EC-DBEB-4E05-C8E8-ED9801CE54A9" containerWithKeyObject="8116BCEC-2E53-78F8-5403-597BAA3C4B33" localFKIndex="BA593C93-523C-D9F1-0A4C-C5BA2E4D47BB" name="F_PEDIDO_D_FUNCMOTOBOY_FK">
+<createdBy>geova</createdBy>
+<createdTime>2025-07-14 07:28:56 UTC</createdTime>
+<ownerDesignName>DataMart DWBurguer</ownerDesignName>
+<referredTableLongName>D_FUNCIONARIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8AF05BBE-347C-4B3A-69C2-A229C696E339</referredTableID>
+<keyObject>F22358EB-034E-82FC-AF12-8B808D842CFF</keyObject>
+<referredKeyID>F22358EB-034E-82FC-AF12-8B808D842CFF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SK_FUNCIONARIO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

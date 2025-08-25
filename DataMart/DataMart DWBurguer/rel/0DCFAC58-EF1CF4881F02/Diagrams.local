@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="7F95D58B-EFAB-CE22-BABB-08DF44E5949C" name="Relational_1" visible="true"/>
+   <object objectType="sub_view" objectID="BF46B186-4795-290A-718C-4507DECD9F15" name="FATO RESUMO DE PEDIDOS" visible="true"/>
+   <object objectType="sub_view" objectID="CBD75BD4-40D4-E86A-D927-292B54143AC5" name="FATO DE PEDIDOS" visible="true"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

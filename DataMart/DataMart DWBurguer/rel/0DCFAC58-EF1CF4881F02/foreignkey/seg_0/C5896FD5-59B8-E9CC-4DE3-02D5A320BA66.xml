@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C5896FD5-59B8-E9CC-4DE3-02D5A320BA66" containerWithKeyObject="8116BCEC-2E53-78F8-5403-597BAA3C4B33" localFKIndex="5D6105EA-F39A-218F-1D43-4935C2F54F5A" name="F_PEDIDO_D_CLIENTE_FK">
+<createdBy>geova</createdBy>
+<createdTime>2025-07-14 07:26:29 UTC</createdTime>
+<ownerDesignName>DataMart DWBurguer</ownerDesignName>
+<referredTableLongName>D_CLIENTE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6DCADC10-82C5-1613-4BA3-15FDC38432EC</referredTableID>
+<keyObject>65346A03-4DE9-4AAD-7D79-479EA0342105</keyObject>
+<referredKeyID>65346A03-4DE9-4AAD-7D79-479EA0342105</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SK_CLIENTE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

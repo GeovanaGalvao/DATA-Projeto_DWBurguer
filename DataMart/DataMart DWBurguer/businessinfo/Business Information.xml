@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="398DCC00-86DC-205A-7211-8B0D77469DEC">
+<createdBy>geova</createdBy>
+<createdTime>2025-07-11 06:36:23 UTC</createdTime>
+<ownerDesignName>DataMart DWBurguer</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

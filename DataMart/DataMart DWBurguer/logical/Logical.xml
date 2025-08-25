@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="A8885A63-060F-44CF-8DC9-1D75A8712081" mainViewID="F078CE6A-AC6F-6BE6-46C8-3F28CFD382DF">
+<createdBy>geova</createdBy>
+<createdTime>2025-07-11 06:36:23 UTC</createdTime>
+<ownerDesignName>DataMart DWBurguer</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>
